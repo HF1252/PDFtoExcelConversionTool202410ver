@@ -1,0 +1,20 @@
+前提条件：
+MicrosoftStoreにて、対象アプリ（開発者ツール）をダウンロードしとくこと。
+
+アプリ名：
+Python 3.12
+
+※2024/09/27時点での最新バージョンです。
+
+インストール後下記の手順へ進む。
+＜手順＞
+1.「Windowsマーク」を押下
+2.リストにて、「WindowsPowerShell」フォルダを押下
+3.「WindowsPowerShell」アプリをクリック
+4.必要なライブラリのインストール
+※下記のコマンド実行
+pip install pdfplumber pandas openpyxl
+5.インストール完了後プロンプトを閉じる
+6.Pythonファイル「PDFtoExcelConversionTool.py」をダブルクリック（実行）
+7.GUIウィンドウにて、Excelへ変換したいPDFファイルを選択し、「開く（O）」ボタン押下
+8.再度GUIウィンドウにて、保存先とファイル名を指定し、「保存（S）」ボタン押下
